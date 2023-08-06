@@ -1,4 +1,5 @@
 // import packages below
+import Script from 'next/script';
 import { ChakraProvider } from '@chakra-ui/react';
 
 // import utils below
@@ -15,7 +16,10 @@ export default function App({ Component, pageProps }) {
           <Component {...pageProps} />
         </MachineContextProvider>
       </ChakraProvider>
-      <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+      <script
+        src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'
+        defer
+      ></script>
     </>
   );
 }
