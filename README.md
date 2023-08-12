@@ -1,3 +1,9 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/351a20e5-9775-4a5c-a503-878374ce740d/deploy-status)](https://app.netlify.com/sites/aft-drum-machine/deploys?branch=main)
+
+Check this out on https://aft-drum-machine.netlify.app.
+
+<br>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
