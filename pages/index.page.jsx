@@ -3,6 +3,7 @@ import { useEffect, useCallback, useContext } from 'react';
 import { Heading } from '@chakra-ui/react';
 
 // import components below
+import NextHead from '@/layout/Head';
 import Display from '@/components/Display';
 import Controls from '@/components/Controls';
 import Instruments from '@/components/Instruments';
