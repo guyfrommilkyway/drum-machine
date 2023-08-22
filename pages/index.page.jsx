@@ -34,14 +34,17 @@ const Home = () => {
   }, [power]);
 
   return (
-    <div id='drum-machine'>
-      <Heading as='h4' mb={4} fontSize='md' textTransform='uppercase'>
-        Drum Machine
-      </Heading>
-      <Display />
-      <Controls />
-      <Instruments />
-    </div>
+    <>
+      <NextHead title='Drum Machine' />
+      <div id='drum-machine'>
+        <Heading as='h4' mb={4} fontSize='md' textTransform='uppercase'>
+          Drum Machine
+        </Heading>
+        <Display />
+        <Controls />
+        <Instruments />
+      </div>
+    </>
   );
 };
 
