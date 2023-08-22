@@ -13,7 +13,7 @@ const DrumPad = (props) => {
   const clickHandler = useCallback((key) => {
     playHandler(key);
     displayHandler(key);
-  }, []);
+  });
 
   return (
     <Button

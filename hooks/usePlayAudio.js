@@ -10,7 +10,7 @@ const usePlayAudio = () => {
       audio.volume = volume;
       audio.play();
     }
-  }, []);
+  });
 
   return { playHandler };
 };
